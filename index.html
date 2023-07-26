@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Landing Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- below is bootstrap css from CDN (Content Delivery Network, so you don't need the actual files) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="landing page.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- d-flex is from the flex thing on bootstrap. height and width is bc the container was smaller than the background image. fuck with numbers to get it centered. -->
+    <div class="container d-flex align-items-center h-100 w-50">
+      <div class="row">
+        <header class="text-center col-12">
+          <h1><strong>The biggest startup event of the year</strong></h1>
+        </header>
+        <!-- we didn't need anything in the div for buffer bc we gave the class .buffer in the css document certain attributes. -->
+        <div class="buffer col-12"></div>
+        <section class="text-center col-12">
+          <hr>
+        <a href="https://mailchi.mp/a171f978a414/landing-page">
+          <button type="button" class="btn btn-primary btn-xl">Find out more</button>
+        </a>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+      </div>
+    </div>
+  </body>
+</html>
